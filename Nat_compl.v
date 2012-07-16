@@ -31,6 +31,8 @@
 (*                                                       *)
 (*********************************************************)
 
+Global Set Asymmetric Patterns.
+
 Require Export Arith.
 Require Export Compare_dec.
 Require Import Omega.

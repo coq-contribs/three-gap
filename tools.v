@@ -34,10 +34,10 @@
 Require Export Reals.
 Require Export Nat_compl.
 
-Variable alpha : R.
+Parameter alpha : R.
 (*********************************************************)
 
-Hypothesis prop_alpha : (0 < alpha)%R /\ (alpha < 1)%R.
+Axiom prop_alpha : (0 < alpha)%R /\ (alpha < 1)%R.
 
 (*********************************************************)
 (*           first and last                              *)

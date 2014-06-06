@@ -33,6 +33,9 @@
 
 Require Import Max.
 Require Export tools.
+
+Unset Standard Proposition Elimination Names.
+
 (*********************************************************)
 
 (**********)

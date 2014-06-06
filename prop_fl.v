@@ -33,6 +33,9 @@
 
 Require Export prop_elem.
 Require Export Classical_Prop.
+
+Unset Standard Proposition Elimination Names.
+
 (*********************************************************)
 
 Section theoreme.

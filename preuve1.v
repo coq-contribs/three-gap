@@ -33,6 +33,8 @@
 
 Require Export prop_fl.
 
+Unset Standard Proposition Elimination Names.
+
 Section particular.
 Hypothesis alpha_irr : forall n p : Z, (alpha * IZR p)%R <> IZR n.
 Hypothesis prop_alpha : (0 < alpha)%R /\ (alpha < 1)%R.

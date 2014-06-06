@@ -34,6 +34,8 @@
 Require Export Reals.
 Require Export Nat_compl.
 
+Unset Standard Proposition Elimination Names.
+
 Parameter alpha : R.
 (*********************************************************)
 
